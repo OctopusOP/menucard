@@ -17,7 +17,7 @@ export default function MenuClient({ menu }) {
   return (
     <div className="p-4">
       {/* CATEGORY FILTER */}
-      <div className="flex gap-2 mb-4">
+      <div className="flex gap-2 mb-4 overflow-x-auto">
         {categories.map((cat) => (
           <button
             key={cat}
